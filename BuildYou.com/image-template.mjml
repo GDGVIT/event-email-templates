@@ -1,0 +1,44 @@
+<mjml>
+  <mj-body background-color="#171717" padding="0px">
+    <mj-section background-color="#171717" full-width="full-width">
+      <mj-column width="100%" vertical-align="middle">
+        <mj-image src="https://i.ibb.co/yyCrFxD/top-bg.png" alt=""></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#171717" full-width="full-width">
+      <mj-column width="100%" vertical-align="middle">
+        <mj-image src="https://i.ibb.co/mXfyvpf/1.png" alt=""></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#171717" full-width="full-width">
+      <mj-column width="100%" vertical-align="middle">
+        <mj-image src="https://i.ibb.co/8M9CTJJ/2.png" alt=""></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#171717" full-width="full-width">
+      <mj-column width="100%" vertical-align="middle">
+        <mj-image src="https://i.ibb.co/4Sd60QD/3.png" alt="" padding-bottom="0px"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section vertical-align="middle" background-color="#171717" full-width="full-width" text-align="center">
+      <mj-column width="100%" vertical-align="middle">
+        <mj-text align="center" color="#FFFFFF" font-size="12px" line-height="20px"><span style="font-size: 13px; color: #FBA3F3">The brochure is attached with this email for your reference.
+</span></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#171717" vertical-align="middle" full-width="full-width">
+      <mj-column width="100%" vertical-align="middle">
+        <mj-text align="left" color="#FFFFFF" font-size="12px" line-height="20px"><span style="font-size: 20px; color: #FBA3F3">Contact Us
+</span></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-column width="100%" vertical-align="middle">
+      <mj-divider border-color="#FBA3F3" border-style="solid" border-width="1px" padding-left="100px" padding-right="100px" padding-bottom="20px" padding-top="20px"></mj-divider>
+    </mj-column>
+    <mj-section background-color="#171717" full-width="full-width">
+      <mj-column width="100%" vertical-align="middle">
+        <mj-image src="https://i.ibb.co/NVhf4RB/4.png" alt="" padding-bottom="0px" padding-top="0px"></mj-image>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

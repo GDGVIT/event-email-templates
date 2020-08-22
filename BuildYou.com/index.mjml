@@ -1,0 +1,74 @@
+<mjml>
+  <mj-body background-color="#171717">
+    <mj-section background-color="#171717" full-width="full-width">
+      <mj-column width="100%" vertical-align="middle">
+        <mj-image src="https://i.ibb.co/yyCrFxD/top-bg.png" alt="" padding-bottom="0px" padding-top="10px"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section vertical-align="middle" background-color="#171717" full-width="full-width">
+      <mj-column width="50%" vertical-align="middle">
+        <mj-text align="left" color="#FFFFFF" font-size="12px" padding-bottom="25px" line-height="20px"><span style="font-weight: bold; font-size: 21px; color: #FBA3F3">What is it - About BuildYou.com</span><br/><br/>BuildYou.com is a unique opportunity for all the budding developers out there to code along, and learn how to build and customize
+          their own fully-working personal portfolio website from scratch! It would not only help them to kick-start their journey in web development, but also come up with a complete functional personal and customized portfolio of their own, built by
+          themselves.
+          <br></br>
+          It would be a three hour technical workshop which introduces the student participants to the basics of web development stack such as HTML, CSS and JavaScript and promises to give them insight and gain a newly developed skill-set and a live hosted self-portfolio
+          website to show off!</mj-text>
+      </mj-column>
+      <mj-column width="50%" vertical-align="middle">
+        <mj-image src="https://i.ibb.co/0sPwgVb/about-buildyou.png" alt="" padding-bottom="30px" padding-top="20px"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section vertical-align="middle" background-color="#171717" full-width="full-width">
+      <mj-column width="50%" vertical-align="middle">
+        <mj-image src="https://i.ibb.co/92YNmxk/about-dsc.png" alt="" padding-bottom="30px" padding-top="20px"></mj-image>
+      </mj-column>
+      <mj-column width="50%" vertical-align="middle">
+        <mj-text align="left" color="#FFFFFF" font-size="12px" padding-bottom="25px" padding-top="25px" line-height="20px"><span style="font-weight: bold; font-size: 21px; color: #FBA3F3">Who’s doing it - About DSC VIT</span><br/><br/>One of the most sought – after technical chapters in VIT Vellore is Developer Student Clubs VIT, powered by Google Developers, a non-profit
+          community that aims to inspire young and intelligent minds in the field of technology and provides a platform to learn, develop and innovate. An organisation that believes in empowering enthusiasts in developing in various technical domains
+          and building solutions for real-world problems by working alongside a well-established design and management team.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section vertical-align="middle" background-color="#171717" full-width="full-width">
+      <mj-column width="50%" vertical-align="middle">
+        <mj-text align="left" color="#FFFFFF" font-size="12px" padding-bottom="25px" padding-top="25px" line-height="20px"><span style="font-weight: bold; font-size: 21px; color: #FBA3F3">Why Sponsor Us</span><br/><br/>In order to achieve our vision and make this event a success, we need the help of industry pioneers and leaders like you. We seek collaboration with
+          you, in terms of monetary support as well as in-kind, so that we can deliver quality content to the eager learners out there.
+          <br></br>
+          Having you as a sponsor, we would be obliged to display your logo on all of our marketing material and get access to many more perks like these, getting your company’s name out to the overwhelming student community of VIT Vellore who are tomorrow’s potential
+          customers.
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%" vertical-align="middle">
+        <mj-image src="https://i.ibb.co/hR65DCm/why-sponsor.png" alt="" padding-bottom="30px" padding-top="20px"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section vertical-align="middle" background-color="#171717" full-width="full-width" text-align="center">
+      <mj-column width="100%" vertical-align="middle">
+        <mj-text align="center" color="#FFFFFF" font-size="12px" padding-bottom="25px" padding-top="25px" line-height="20px"><span style="font-size: 13px; color: #FBA3F3">The brochure is attached with this email for your reference.
+</span></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#171717" vertical-align="middle" full-width="full-width">
+      <mj-column width="100%" vertical-align="middle">
+        <mj-text align="left" color="#FFFFFF" font-size="12px" line-height="20px"><span style="font-size: 20px; color: #FBA3F3">Contact Us
+</span></mj-text>
+      </mj-column>
+      <mj-column width="100%" vertical-align="middle">
+        <mj-divider border-color="#FBA3F3" border-style="solid" border-width="1px" padding-left="100px" padding-right="100px" padding-bottom="20px" padding-top="20px"></mj-divider>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#171717" vertical-align="top" full-width="full-width">
+      <mj-column vertical-align="top" width="33.33333333333333%">
+        <mj-text align="left" color="#ffffff" font-size="13px" padding-bottom="30px"><span style="font-weight: bold; font-size: 18px;">Angad Sharma</span><br></br><span style="font-weight: bold; font-size: 15px;">Point of Contact</span><br></br>angadsharma1016@gmail.com<br></br>9971673330</mj-text>
+      </mj-column>
+      <mj-column vertical-align="top" width="30.33333333333333%">
+        <mj-text align="left" color="#ffffff" font-size="13px" padding-bottom="30px"><span style="font-weight: bold; font-size: 18px;">Meherdeep Thakur</span><br></br><span style="font-weight: bold; font-size: 15px;">Point of Contact</span><br></br>meherdeept@gmail.com<br></br>8700865402</mj-text>
+      </mj-column>
+      <mj-column vertical-align="top" width="36.33333333333333%">
+        <mj-text align="left" color="#ffffff" font-size="13px" padding-bottom="30px" padding-top="3px">instagram.com/dscvitvellore<br></br>
+          dscvitvellore@gmail.com<br></br>
+          twitter.com/dscvit<br></br>
+          fb.com/dscvitvellore</mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
