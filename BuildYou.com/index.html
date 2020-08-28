@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BuildYou</title>
+  <style>
+    body {
+      background-color: rgba(22, 22, 22, 1);
+      font-family: montserrat;
+      /* width:100vw; */
+    }
+
+    .grid-container {
+      margin-top: 70px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      /* background-color: #2196F3; */
+      /* margin: 5px; */
+      /* width:100vw; */
+      /* padding: 10px; */
+    }
+
+    .child {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .grid-item {
+      /* padding: 50px; */
+      font-size: 30px;
+      /* width:1fr; */
+      /* text-align: center; */
+    }
+
+    .grid-item2 {
+
+      /* background-color:springgreen; */
+      /* padding: 50px; */
+      font-size: 30px;
+      text-align: center;
+      /* display: flex; */
+      /* justify-content: center; */
+    }
+
+    .grid-item3 {
+      width: calc(50vw - 78px);
+      padding-top: 150px;
+      padding-left: 60px;
+      /* font-size: 30px; */
+      /* background-color: violet; */
+      display: inline-block;
+      /* text-align: center; */
+    }
+
+    .grid-item5 {
+      display: inline-block;
+      text-align: center;
+      width: calc(50vw - 78px);
+      /* background-color: slateblue; */
+      padding-left: 60px;
+      padding-bottom: 50px;
+      /* margin-top: -20px; */
+      /* padding-top: 50px; */
+    }
+
+    .grid-item4 {
+      display: inline-block;
+      width: calc(50vw - 20px);
+      /* width:100%; */
+      padding-top: 50px;
+
+      /* padding-top: 150px; */
+      /* padding-left: 60px; */
+      /* font-size: 30px; */
+      /* background-color:teal; */
+      text-align: center;
+    }
+
+    .grid-item6 {
+      display: inline-block;
+      width: calc(50vw - 60px);
+      /* margin-top: -120px; */
+
+      /* width:100%; */
+      /* padding-top: 10px; */
+
+      /* padding-top: 150px; */
+      /* padding-left: 60px; */
+      /* font-size: 30px; */
+      /* background-color:teal; */
+      /* text-align: center; */
+    }
+
+    .grid-item1 {
+      /* margin-top: 50px; */
+      /* padding: 20px; */
+      font-size: 30px;
+      text-align: center;
+      border-style: solid;
+      /* background-color:tomato; */
+      border-right-color: #2196F355;
+      border-top: none;
+      border-left: none;
+      border-bottom: none;
+    }
+
+    .buildlogo {
+      width: 300px;
+    }
+
+    .dsclogo {
+      width: 350px;
+      /* height: 100px; */
+      /* margin: auto auto; */
+      padding-top: 30px;
+    }
+
+    .text {
+      font-size: 15px;
+    }
+
+    .first {
+      /* padding-top:110px; */
+      width: 280px;
+    }
+
+    .footer {
+      /* width: calc(100vw - 60px); */
+      padding-left: 40px;
+      /* margin:10px 70px; */
+      border-style: solid;
+      border-color: pink;
+      border-left: none;
+      border-right: none;
+      border-top: none;
+    }
+
+    .line {
+      text-align: center;
+      padding-top: 140px;
+      /* padding-left: 40px; */
+      /* width:calc(100vw - 150px) */
+      /* border-color: pink; */
+      /* border-style: solid; */
+      /* width:100vw; */
+    }
+
+    .vanish {
+      display: none;
+    }
+
+    .child>div>h2 {
+      color: white;
+    }
+
+    .child>div>h3 {
+      color: white;
+    }
+
+    .child>div>h4 {
+      color: white;
+    }
+
+    .child>div {
+      padding-left: 40px;
+    }
+
+    .finalgrid {
+      display: grid;
+      grid-template-columns: 35px auto;
+    }
+
+    .finalgrid>div {
+      color: white;
+    }
+
+    .icon {
+      width: 25px;
+    }
+
+    @media (max-width: 768px) {
+
+      /* .grid-item{
+                width:100%;
+            } */
+      .buildlogo {
+        width: 90px;
+      }
+
+      .dsclogo {
+        width: 70px;
+        padding-top: 15px;
+      }
+
+      .first {
+        padding-top: 10px;
+        width: 200px
+      }
+
+      .footer {
+        /* width: calc(90vw - 5px); */
+        /* margin-left:10px; */
+        padding-left: 5px;
+        /* width: 92vmax; */
+      }
+
+      .line {
+        font-size: 10px;
+        font-weight: 100;
+        padding-top: 80px;
+      }
+
+      .grid-item3 {
+        /* grid-template-columns: 1fr; */
+        /* width: 90vw; */
+        padding-left: 20px;
+        padding-top: 80px;
+        width: calc(90vw - 30px);
+      }
+
+      .grid-item6 {
+        /* grid-template-columns: 1fr; */
+        /* width: 90vw; */
+        padding-left: 20px;
+        padding-top: 80px;
+        width: calc(90vw - 5px);
+      }
+
+      .grid-item4 {
+        padding-top: 0px;
+        width: calc(90vw);
+
+      }
+
+      .grid-item5 {
+        display: none;
+      }
+
+      .vanish {
+        display: block;
+        width: calc(90vw - 0px);
+        /* background-color: slateblue; */
+        text-align: center;
+      }
+
+      .child {
+        grid-template-columns: 1fr;
+      }
+
+      /* .grid-container{
+                grid-template-columns: 1fr;
+            }
+            .grid-item1{
+                display: inline-block;
+            }
+            .grid-item2{
+                display: inline-block;
+            } */
+    }
+  </style>
+</head>
+
+<body>
+  <div class="grid-container">
+    <div class="grid-item1">
+      <img src="Group_11.png" alt="logo" class="buildlogo">
+    </div>
+    <div class="grid-item2">
+      <img src="Short_Logo_b_pattern.png" alt="dsc" class="dsclogo">
+    </div>
+  </div>
+  <div class="grid-item3">
+    <h1 style="color:pink;">What is it - About BuildYou.com</h1><br>
+    <h2 class="text" style="color: white;">BuildYou.com is a unique opportunity for all the budding developers out there
+      to code along, and learn how to build and customize their own fully-working personal portfolio website from
+      scratch! It would not only help them to kick-start their journey in web development, but also come up with a
+      complete functional personal and customized portfolio of their own, built by themselves. <br /><br />It would be a
+      three hour technical workshop which introduces the student participants to the basics of web development stack
+      such as HTML, CSS and JavaScript and promises to give them insight and gain a newly developed skill-set and a live
+      hosted self-portfolio website to show off!</h2>
+  </div>
+  <div class="grid-item4">
+    <img src="Build_you.png" alt="first" class="first">
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="grid-item5">
+    <img src="Asset_3.png" alt="two" class="first">
+  </div>
+  <div class="grid-item6">
+    <h1 style="color:pink">Who’s doing it - About DSC VIT</h1><br>
+    <h2 class="text" style="color: white;">One of the most sought – after technical chapters in VIT Vellore is Developer
+      Student Clubs VIT, powered by Google Developers, a non-profit community that aims to inspire young and intelligent
+      minds in the field of technology and provides a platform to learn, develop and innovate. An organisation that
+      believes in empowering enthusiasts in developing in various technical domains and building solutions for
+      real-world problems by working alongside a well-established design and management team.</h2>
+  </div>
+  <div class="vanish">
+    <img src="Asset_3.png" alt="two" class="first">
+  </div>
+  <div class="grid-item3">
+
+    <h1 style="color:pink">Why Sponsor Us</h1><br>
+    <h2 class="text" style="color: white;">In order to achieve our vision and make this event a success, we need the
+      help of industry pioneers and leaders like you. We seek collaboration with you, in terms of monetary support as
+      well as in-kind, so that we can deliver quality content to the eager learners out there.<br /><br />Having you as
+      a sponsor, we would be obliged to display your logo on all of our marketing material and get access to many more
+      perks like these, getting your company’s name out to the overwhelming student community of VIT Vellore who are
+      tomorrow’s potential customers.</h2>
+  </div>
+  <div class="grid-item4">
+    <img src="Why_sponsor.png" alt="two" class="first">
+  </div>
+
+  <br>
+  <div class="line">
+    <h3 style="color:pink;">
+      The brochure is attached with this email for your reference.
+    </h3>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="footer">
+    <h1 style="color:pink">Contact Us</h1>
+  </div>
+  <br>
+  <div class="child">
+    <div>
+      <h2>Angad Sharma</h2>
+      <h3>Point of Contact</h3>
+      <h4>
+        <span>
+          <img src="" alt="" class="icon">
+        </span>
+        angadsharma1016@gmail.com
+      </h4>
+      <h4>
+        <span>
+          <img src="" alt="" class="icon">
+        </span>
+        9971673330
+      </h4>
+    </div>
+    <div>
+      <h2>Meherdeep Thakur</h2>
+      <h3>Point of Contact</h3>
+      <h4>
+        <span>
+          <img src="" alt="" class="icon">
+        </span>
+        meherdeept@gmail.com
+      </h4>
+      <h4>
+        <span>
+          <img src="" alt="" class="icon">
+        </span>
+        8700865402
+      </h4>
+    </div>
+
+    <div class="finalgrid">
+      <div>
+        <img src="" alt="" srcset="" class="icon">
+      </div>
+      <div>instagram.com/dscvitvellore</div>
+      <div>
+        <img src="" alt="" srcset="" class="icon">
+      </div>
+      <div>
+        dscvitvellore@gmail.com
+      </div>
+      <div>
+        <img src="" alt="" srcset="" class="icon">
+      </div>
+      <div>
+        twitter.com/dscvit
+      </div>
+      <div>
+        <img src="" alt="" srcset="" class="icon">
+      </div>
+      <div>
+        fb.com/dscvitvellore
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
