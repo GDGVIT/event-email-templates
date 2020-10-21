@@ -1,0 +1,39 @@
+<mjml>
+  <mj-body background-color="#171717" font-size="13px">
+    <mj-section background-color="#171717" padding-bottom="0px" padding-top="0">
+      <mj-column vertical-align="top" width="100%">
+        <mj-image href="https://bit.ly/BuildYouYT" src="https://i.ibb.co/nLjFPWS/Build-You-Header.jpg" alt="BuildYou.com" align="center" border="none" width="600px" padding-left="0px" padding-right="0px" padding-bottom="0px" padding-top="0"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#171717" vertical-align="top" padding-bottom="0px" padding-top="0">
+      <mj-column vertical-align="top" width="100%">
+        <mj-text align="left" color="#ffffff" font-size="20px" font-weight="bold" font-family="open Sans Helvetica, Arial, sans-serif" padding-left="22px" padding-right="0px" padding-bottom="0px" padding-top="22px">Greetings from DSC VIT!</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#171717" padding-bottom="20px" padding-top="20px">
+      <mj-column vertical-align="middle" width="100%">
+        <mj-text align="left" color="#ffffff" font-size="14px" font-family="open Sans Helvetica, Arial, sans-serif" padding-left="25px" padding-right="25px" line-height="20px">You are now one step closer to building a profile website for yourself that stands out. We’re super excited to help you master your frontend skills and go back with a full-fledged working site all ready to be on your resume. All you need is a
+          decent internet connection and a water bottle to keep you hydrated through the session!
+          <br/><br/> <b style="font-size:21px">Important Information:</b>
+          <br/>
+          <br/> <b>Platform:</b> Youtube Date: 24-10-2020<br/><br/>
+          <b>Event Time:</b> 6:00 PM
+          <br/><br/>
+          <b>Event Link:</b> <a href="https://bit.ly/BuildYouYT">YouTube Link</a>
+          <br/><br/> Looking forward to meeting all you budding developers ✨✨
+          <br/>
+          <br/> Be sure to follow us on Instagram (<a href="https://www.instagram.com/dscvitvellore/">@dscvitvellore</a>), Twitter (<a href="https://twitter.com/dscvit">@dscvit</a>) and Facebook (<a href="https://facebook.com/dscvitvellore">@dscvitvellore</a>)
+          for updates, queries and upcoming workshops!</mj-text>
+        <mj-text align="left" color="#ffffff" font-size="20px" font-weight="bold" font-family="open Sans Helvetica, Arial, sans-serif" padding-left="22px" padding-right="0px" padding-bottom="0px" padding-top="22px">Contact Us</mj-text>
+        <mj-text align="left" font-size="15px" color="#f7f7f7" font-family="open Sans Helvetica, Arial, sans-serif" padding-left="25px" padding-right="25px"><span style="font-weight:bold">Angad Sharma</span><br/><br/><span style="color:#F5F5F5" padding-top="22px">Community Lead</span>
+          <br/><br/> +91 9971673330
+          <br/><br/> angadsharma1016@gmail.com
+        </mj-text>
+        <mj-text align="left" color="#f7f7f7" font-size="15px" font-family="open Sans Helvetica, Arial, sans-serif" padding-left="25px" padding-right="25px" padding-top="20px"><span style="font-weight:bold;">Meherdeep Thakur</span><br/><br/><span style="color:#F5F5F5">Management Lead</span>
+          <br/><br/> +91 8700865402
+          <br/><br/> meherdeept@gmail.com
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
